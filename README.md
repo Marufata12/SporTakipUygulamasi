@@ -1,26 +1,24 @@
-Seyahat Planlama Uygulaması:
+Spor Takip Uygulaması:
 
-Seyahat Planlama Uygulaması, kullanıcıların seyahat rotaları oluşturmasını ve konaklama seçeneklerini yönetmesini sağlayan bir PyQt5 tabanlı bir uygulamadır. 
-Bu uygulama, seyahat rotalarını oluşturmak, seyahat detaylarını eklemek, konaklama tesislerini eklemek, 
-rotaları silmek ve konaklama seçeneklerini silmek gibi temel işlevleri içerir.
+Spor Takip Uygulaması, sporcuların antrenman programlarını oluşturmasını, ilerlemelerini kaydetmesini ve rapor almalarını sağlayan bir PyQt5 tabanlı bir uygulamadır. 
+Bu uygulama, sporcuların adını, spor dalını, antrenman programlarını ve ilerleme detaylarını saklar ve yönetir.
 
 Kullanım Kılavuzu
-Rota Ekleme:
-"Rota Detayları" giriş alanına seyahat rotası detaylarını girin.
-"Seyahat Süresi (Gün)" giriş alanına seyahat süresini belirtin.
-"Rota Ekle" düğmesine tıklayarak yeni bir seyahat rotası ekleyin.
 
-Detay Ekleme:
-Bir rota seçtikten sonra, "Detay" giriş alanına ek detaylar ekleyin.
-"Detay Ekle" düğmesine tıklayarak rotaya detay ekleyin.
+Sporcu Ekleme:
+"Sporcu Adı" ve "Spor Dalı" giriş alanlarına sporcu bilgilerini girin.
+"Program Oluştur" düğmesine tıklayarak bir sporcu için antrenman programı oluşturun.
 
-Konaklama Ekleme:
-"Konaklama Tesisi Adı" giriş alanına konaklama tesisi adını girin.
-"Fiyat" giriş alanına konaklama fiyatını girin.
-"Konaklama Ekle" düğmesine tıklayarak yeni bir konaklama seçeneği ekleyin.
-Rotaları ve Konaklama Seçeneklerini Görüntüleme:
-"Rotalar" listesinden mevcut rotaları görüntüleyin. Bir rota seçtiğinizde, detaylarını görmek için kullanabilirsiniz.
-"Konaklama Seçenekleri" listesinden mevcut konaklama seçeneklerini görüntüleyin.
+Antrenman Programı Oluşturma:
+"Antrenman Adı" ve "Antrenman Detayları" giriş alanlarına antrenman bilgilerini girin.
+Bir sporcu seçtikten sonra, "Program Oluştur" düğmesine tıklayarak antrenman programı oluşturun.
 
-Rota veya Konaklama Silme:
-Bir rota veya konaklama seçtikten sonra, ilgili "Sil" düğmesine tıklayarak seçilen rotayı veya konaklama seçeneğini silin.
+İlerleme Kaydetme:
+Bir sporcu seçin.
+"Antrenman Adı" giriş alanına ilerleme kaydedilecek antrenmanın adını girin.
+"Antrenman Detayları" giriş alanına ilerleme detaylarını girin.
+"İlerleme Kaydet" düğmesine tıklayarak ilerlemeyi kaydedin.
+
+Rapor Alma:
+Bir sporcu seçin.
+"Rapor Al" düğmesine tıklayarak seçili sporcunun antrenman raporunu görüntüleyin.
